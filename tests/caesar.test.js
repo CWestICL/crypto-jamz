@@ -7,7 +7,7 @@ describe('Caesar', () => {
   })
 
   test('it decodes correctly', () => {
-    expect(caesarDecode('DEFATOTEJ RZE FD TYEZ ESTD XPDD LYO DEFATOTEJ HTWW RPE FD ZFE')).toBe('stupidity got us into this mess and stupidity will get us out')
+    expect(caesarDecode('DEFATOTEJ RZE FD TYEZ ESTD XPDD LYO DEFATOTEJ HTWW RPE FD ZFE',11)).toBe('stupidity got us into this mess and stupidity will get us out')
   })
 
 })
